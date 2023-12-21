@@ -31,10 +31,6 @@ header {
     justify-content: space-between;
     align-items:baseline;
 
- 
-
- 
-
 
 }
 
@@ -51,10 +47,6 @@ h1 {
     
 }
 
-header a {
-    text-decoration: none;
-    color: inherit;
-}
 
 #menu {
     font-size: 110%;
@@ -73,14 +65,14 @@ header a {
     border-bottom: 1px solid#3a3a3a;
 }
 
-<!--Navbar styles with dropdown
+/*--Navbar styles with dropdown*/
 
 
 nav {
     position:absolute;
-    background-color:#ffffff
+    background-color:#ffffff;
     width: 100%;
-    left: 0%;
+    left: 0;
     padding:0 1 rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
