@@ -327,6 +327,19 @@ main {
 
 /* Sign up page */
 
-    #sign-up h2 {
-        
-    }
+   #signup {
+    background-size: cover;
+    background-position: 75%;
+    flex-grow: 1;
+    margin: 20px 10%;
+   }
+
+   #signup-form h2 {
+    color: #fafafa
+    background-color: rgba (60,60,60,0.6);
+   }
+
+   #signup-form main {
+    display: flex;
+    flex-direction: column;
+   }
