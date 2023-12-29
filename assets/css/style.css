@@ -327,19 +327,56 @@ main {
 
 /* Sign up page */
 
-   #signup {
-    background-size: cover;
-    background-position: 75%;
-    flex-grow: 1;
-    margin: 20px 10%;
-   }
-
-   #signup-form h2 {
-    color: #fafafa
-    background-color: rgba (60,60,60,0.6);
-   }
-
-   #signup-form main {
+main {
     display: flex;
     flex-direction: column;
    }
+
+#signup {
+    background-image: url("../images/signup-image.webp");
+    background-size: cover;
+    background-position: 75%;
+    flex-grow: 1;
+    padding: 20px 10% 0 10%;
+    
+}
+
+    #signup-form {
+        padding: 30px;
+        background-color: rgba (60,60,60,0.6);
+        color: #ffffff;
+    }
+
+   #signup-form h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+    
+   }
+
+   .text-input {
+    
+    background: transparent;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    padding: 0 5px;
+
+   }
+
+   #radio-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+   }
+
+   .join-button {
+    border-radius: 2px;
+    background-color: #454b1b;
+    color: #fafafa;
+    font-size: 100%;
+    margin-top: 20px;
+    padding: 15px 32px;
+   }
+   
