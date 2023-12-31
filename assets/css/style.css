@@ -408,12 +408,15 @@ main {
         flex: 1;
     }
 
+    #benefits-physical {
+        order: 3;
+
     #benefits-image {
-        order: 0
+        order: 4;
     }
 
     #benefits-mental {
-        order: 1;
+        order: 2;
     }
 
     #benefits-mental > div {
