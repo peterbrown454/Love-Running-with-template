@@ -223,7 +223,7 @@ main {
     background-size: cover;
     background-position: 75%;
     flex-grow: 1;
-    padding: 0;
+    padding: 20px 10% 0 10%;
     width: 100%;
     
 }
